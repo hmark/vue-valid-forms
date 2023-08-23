@@ -1,7 +1,7 @@
 {
   "name": "vue-valid-forms",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "files": [
     "dist"
@@ -15,10 +15,15 @@
       "require": "./dist/vue-valid-forms.umd.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmark/vue-valid-forms"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --emitDeclarationOnly && vite build",
-    "preview": "vite preview"
+    "build": "vue-tsc --emitDeclarationOnly && vite build && npm run generate:types",
+    "preview": "vite preview",
+    "generate:types": "vue-tsc -p tsconfig.build-ds.json --emitDeclarationOnly"
   },
   "dependencies": {
     "vue": "^3.3.4"

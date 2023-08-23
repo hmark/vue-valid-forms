@@ -13,7 +13,7 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "outDir":"dist",
-    "declaration":true,
+    "declaration":true
   },
   "include": ["lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.tsx", "lib/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
