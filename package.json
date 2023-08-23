@@ -1,7 +1,7 @@
 {
   "name": "vue-valid-forms",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "dist"
@@ -24,7 +24,7 @@
     "dev": "vite",
     "build": "vue-tsc --emitDeclarationOnly && vite build && npm run generate:types",
     "preview": "vite preview",
-    "generate:types": "vue-tsc -p tsconfig.build-ds.json --emitDeclarationOnly"
+    "generate:types": "vue-tsc --emitDeclarationOnly"
   },
   "dependencies": {
     "vue": "^3.3.4"
