@@ -1,7 +1,7 @@
 {
   "name": "vue-valid-forms",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
@@ -11,6 +11,7 @@
   "types": "./dist/main.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/main.d.ts",
       "import": "./dist/vue-valid-forms.js",
       "require": "./dist/vue-valid-forms.umd.js"
     }
