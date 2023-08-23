@@ -35,8 +35,7 @@ npm install vue-valid-forms
 
 ```ts
 import { reactive, ref } from 'vue'
-import Form from '../lib/Form.vue'
-import InputField from '../lib/InputField.vue'
+import { Form, InputField } from 'vue-valid-forms'
 
 const user = reactive({
   email: '',
