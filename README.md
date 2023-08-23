@@ -49,3 +49,9 @@ function submit() {
   success.value = 'Success!'
 }
 ```
+
+## Optional styles import for ImageField, SearchField and TagsField
+
+```css
+@import 'vue-valid-forms/dist/style.css';
+```
